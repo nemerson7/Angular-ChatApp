@@ -1,0 +1,25 @@
+<div class="wrapper">
+
+    <div *ngIf="isUserLoggedIn; else notlogged">
+        <div class="user-profile">
+            <button mat-raised-button color="primary" class="profile button" (click)="userProfile()">
+                User Profile
+            </button>
+        </div>
+
+        <div class="sign-out">
+            <button mat-raised-button color="primary" class="signout button" (click)="signoutClick()">
+                Sign Out
+            </button>
+        </div>
+    </div>
+
+    <ng-template #notlogged>
+        <div class="sign-in">
+            <button mat-raised-button color="primary" class="signin button" (click)="signinClick()">
+                Log In
+            </button>
+        </div>
+    </ng-template>
+
+</div>
