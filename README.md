@@ -1,2 +1,3 @@
-# Angular-ChatApp
-AngularFire Chat Application
+# Angular Chat Application
+
+In progress
