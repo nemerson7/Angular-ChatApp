@@ -1,0 +1,35 @@
+
+.message-input {
+    width: 76%;
+    height: 75%;
+    font-size: 1.3em;
+    background-color: rgb(255, 255, 255);
+    transition: 0.3s ease-out;
+    border-radius: 5px;
+    opacity: 0.7;
+    
+}
+
+.message-input:focus{
+    background-color: #ffa0e2;
+    color: rgb(0, 0, 0);
+    transition: 0.15s ease-in;
+}
+
+.send-button {
+    margin-left: 5px;
+    width: 20%;
+    height: 90%;
+    border-radius: 5px;
+    background-color: rgb(87, 87, 87);
+    color: rgb(255, 255, 255);
+    justify-content: right;
+    min-width: 50px;
+    font-weight: bold;
+    font-size: medium;
+    opacity:0.9;
+}
+
+.send-button:hover {
+    background-color: black;
+}

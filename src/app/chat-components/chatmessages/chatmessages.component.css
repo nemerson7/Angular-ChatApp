@@ -1,0 +1,9 @@
+.feedWrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.message {
+    flex-direction: column;
+    margin: 3px 0;
+}
